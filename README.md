@@ -111,13 +111,14 @@ using the `deauthorise-me` command below.
 If the user running the command has the `DisTier Admin` role, they can run the
 following command to remotely deauthorise a user in a channel, *which will also
 blacklist the user from being able to authorise themselves in the channel 
-again*. To un-blacklist the user, use the **Reauthorise Command**
+again*. To un-blacklist the user, use the 
+**[Reauthorise Command](#reauthorise-a-blacklisted-user)**
 
 ```
 /deauthorise-user <user_discord_tag>
 ```
 
-### Reauthorise a blacklisted user back to a Channel Network
+### Reauthorise a blacklisted user
 
 If a user has been deauthorised from a channel network by and **DisTier Admin**,
 they can be reauthorised with the following command to regain access to the 
